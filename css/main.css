@@ -56,11 +56,25 @@ div {
   background-color: orange;
   width: 25%;
 }
+.ourstory img {
+  display: block;
+  height: auto;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  min-width: 100px;
+}
 .main-content {
   background-color: purple;
   width: 40%;
   padding: 5%;
   height: 900px;
+}
+.main-content a {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .menu {
   background-color: yellow;
@@ -70,14 +84,32 @@ div {
 .footer {
   background-color: pink;
   width: 100%;
-  height: 50px;
+  height: 35px;
   font-family: cursive;
   text-align: center;
+  min-width: 700px;
 }
 .footer a {
   float: right;
 }
 .footer img {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.map {
+  float: none;
+  width: 600px;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  min-width: 250px;
+}
+.map p {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 2em;
+  font-family: serif;
 }
