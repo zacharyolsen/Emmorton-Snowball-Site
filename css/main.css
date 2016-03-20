@@ -101,22 +101,6 @@ div {
   width: 25%;
   height: 600px;
 }
-.footer {
-  background-color: pink;
-  width: 100%;
-  height: 35px;
-  font-family: cursive;
-  text-align: center;
-  min-width: 700px;
-}
-.footer a {
-  float: right;
-}
-.footer img {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 20px;
-}
 .map {
   float: none;
   width: 600px;
@@ -132,4 +116,34 @@ div {
   text-align: center;
   font-size: 2em;
   font-family: serif;
+}
+.family p {
+  text-align: center;
+  font-family: serif;
+}
+.family img {
+  display: block;
+  height: auto;
+  width: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  max-width: 95%;
+}
+.footer {
+  background-color: pink;
+  width: 100%;
+  height: 35px;
+  font-family: cursive;
+  text-align: center;
+  min-width: 700px;
+}
+.footer a {
+  float: right;
+}
+.footer img {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 20px;
 }
