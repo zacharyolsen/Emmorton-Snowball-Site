@@ -1,6 +1,6 @@
 // out: css/main.css, sourcemap: true
 body {
-  background-color: lighten(cyan, 30%);
+  background-color: lighten(cyan, 40%);
 }
 body {
   margin: 0;
@@ -22,7 +22,7 @@ div{
 }
 
 .button {
-  background-color: pink;
+  background-color: darken(pink, 20%);
   color: white;
   padding: 15px 32px;
   border-radius: 8px;
@@ -52,6 +52,7 @@ div{
   h1 {
     display: inline-block;
     font-size: 3em;
+    text-decoration: none;
   }
 
 }
@@ -68,13 +69,13 @@ div{
 
 
 .ourstory {
-  background-color: orange;
+  /*background-color: darken(cyan, 20%);*/
   width: 25%;
   margin-bottom: 30px;
 
   p {
     margin-left: 10px;
-    margin-right: auto;
+    margin-right: 10px;
   }
 
   img {
@@ -90,7 +91,7 @@ div{
 }
 
 .main-content {
-  background-color: purple;
+  background-color: darken(cyan, 30%);
   width: 40%;
   padding: 5%;
   height: auto;
@@ -111,87 +112,103 @@ div{
     display: block;
     height: auto;
     width: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    max-width: 95%;
+    max-width: 100%;
   }
 
   a {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 50px;
   }
 }
 
 .menu {
-  background-color: yellow;
+  /*background-color: darken(cyan, 20%);*/
   width: 25%;
-  height: 600px;
-}
-
-.map {
-  float: none;
-  width:600px;
-  display: block;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
-  min-width: 250px;
-
-  p {
-    margin-top: 5px;
-    text-align: center;
-    font-size: 2em;
-    font-family: serif;
-  }
-}
-
-.joinus {
-  margin-top: 40px;
-  margin-bottom: 35px;
-  float: inherit;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 17px;
-  font-style: italic;
+  margin-top: 20px;
 
   img {
     display: block;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    max-width: 95%;
+  }
+
+  a {
+    align-items: center;
+  }
+}
+
+  .map {
+    float: none;
+    width:600px;
+    display: block;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
-    max-width: 80%;
+    margin-bottom: 60px;
+    min-width: 250px;
+
+    p {
+      margin-top: 5px;
+      text-align: center;
+      font-size: 2em;
+      font-family: serif;
+    }
   }
 
-  a {
+  .joinus {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    float: inherit;
     text-align: center;
-    font-size: 17px;
     font-family: sans-serif;
-    text-decoration: none;
-    margin-bottom: 30px;
+    font-size: 17px;
+    font-style: italic;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      max-width: 80%;
+    }
+
+    a {
+      text-align: center;
+      font-size: 17px;
+      font-family: sans-serif;
+      text-decoration: none;
+      margin-bottom: 30px;
+    }
   }
-}
 
-.footer {
-  /*background-color: pink;*/
-  margin-top: 30px;
-  width: 100%;
-  height: 35px;
-  font-family: monospace;
-  font-style: italic;
-  text-align: center;
-  min-width: 700px;
-  vertical-align: middle;
+  .footer {
+    /*background-color: pink;*/
+    margin-top: 30px;
+    width: 100%;
+    height: 35px;
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+    min-width: 700px;
+    vertical-align: middle;
 
-  a {
-    float: right;
+    a {
+      float: right;
+    }
   }
-}
 
-.footer img {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 20px;
-}
+  .footer img {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
