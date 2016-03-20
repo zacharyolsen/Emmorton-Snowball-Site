@@ -6,9 +6,10 @@ body {
 }
 h1 {
   font-family: cursive;
+  text-decoration: none;
 }
 h2 {
-  font-size: 1em;
+  font-size: 20px;
   text-align: center;
   text-decoration: underline;
 }
@@ -55,6 +56,11 @@ div {
 .ourstory {
   background-color: orange;
   width: 25%;
+  margin-bottom: 30px;
+}
+.ourstory p {
+  margin-left: 10px;
+  margin-right: auto;
 }
 .ourstory img {
   display: block;
@@ -117,27 +123,39 @@ div {
   font-size: 2em;
   font-family: serif;
 }
-.family p {
-  text-align: center;
-  font-family: serif;
-}
-.family img {
-  display: block;
-  height: auto;
-  width: auto;
+.joinus {
   margin-top: 40px;
+  margin-bottom: 35px;
+  float: inherit;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-style: italic;
+}
+.joinus img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
-  max-width: 95%;
+  margin-bottom: 30px;
+  max-width: 80%;
+}
+.joinus a {
+  text-align: center;
+  font-size: 17px;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-bottom: 30px;
 }
 .footer {
-  background-color: pink;
+  /*background-color: pink;*/
+  margin-top: 30px;
   width: 100%;
   height: 35px;
-  font-family: cursive;
+  font-family: monospace;
+  font-style: italic;
   text-align: center;
   min-width: 700px;
+  vertical-align: middle;
 }
 .footer a {
   float: right;
