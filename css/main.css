@@ -59,6 +59,9 @@ div {
   width: 25%;
   margin-bottom: 30px;
 }
+.ourstory h1 {
+  font-family: 'Merienda', cursive;
+}
 .ourstory p {
   margin-left: 10px;
   margin-right: 10px;
@@ -80,15 +83,19 @@ div {
   height: auto;
   margin: auto;
 }
-.main-content h1 {
-  text-align: center;
-  font-size: 5em;
-  font-family: serif;
-  font-family: 'Merienda', cursive;
-}
 .main-content p {
   text-align: center;
   font-family: serif;
+}
+.main-content .welcome {
+  display: block;
+  height: auto;
+  width: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
 }
 .main-content img {
   display: block;
@@ -165,8 +172,7 @@ div {
   margin-top: 30px;
   width: 100%;
   height: 35px;
-  font-family: monospace;
-  font-style: italic;
+  font-family: 'Merienda', cursive;
   text-align: center;
   min-width: 700px;
   vertical-align: middle;
