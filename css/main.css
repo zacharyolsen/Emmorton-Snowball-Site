@@ -6,7 +6,11 @@ body {
 }
 h1 {
   font-family: 'Vampiro One', cursive;
+  color: #003333;
+}
+h1 a {
   text-decoration: none;
+  color: #003333;
 }
 h2 {
   font-size: 20px;
@@ -16,7 +20,7 @@ div {
   float: left;
 }
 .button {
-  background-color: #ff5a77;
+  background-color: #ffb733;
   color: white;
   padding: 15px 32px;
   border-radius: 8px;
@@ -117,6 +121,16 @@ div {
   width: 25%;
   margin-top: 20px;
 }
+.menu .cone {
+  display: block;
+  height: auto;
+  width: auto;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  max-width: 80%;
+}
 .menu img {
   display: block;
   height: auto;
@@ -125,7 +139,7 @@ div {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 40px;
-  max-width: 95%;
+  max-width: 100%;
 }
 .menu a {
   align-items: center;
